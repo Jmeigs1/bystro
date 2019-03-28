@@ -10,12 +10,17 @@ class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <meta charSet="utf-8" />
           <link
             href="https://fonts.googleapis.com/css?family=Raleway"
             rel="stylesheet"
           />
+          <link 
+            rel="icon" 
+            type="image/png" 
+            href="//bystro.io/assets/favicon.png" 
+          />          
         </Head>
         <body style={{ margin: 0 }}>
           <Main />

@@ -1,6 +1,7 @@
 import React from "react";
-import App, { Container } from "next/app";
+import App, { Container, NextAppContext } from "next/app";
 import Header from "../components/Header/Header";
+import Head from "next/head"
 
 import "../styles/main.scss";
 
@@ -20,6 +21,11 @@ class MyApp extends App {
 
     return (
       <div id="site-theme">
+        <Head>
+          <title>
+            Bystro Genomics
+          </title>
+        </Head>
         <Header />
         <div id="main">
           <Container>
